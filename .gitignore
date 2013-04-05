@@ -1,0 +1,13 @@
+*.metadata/
+.settings
+.classpath
+.project
+bin/
+.metadata
+*.xcworkspacedata
+*.xcuserstate
+*.xcbkptlist
+*.xcscheme
+*.plist
+*.1
+*.xcodeproj
