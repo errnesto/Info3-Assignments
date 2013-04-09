@@ -18,6 +18,6 @@ public class Node {
 	  if (next == null)
 	  return data;
 	  else
-	  return data + ", " + next.toString();
+	  return data + "," + next.toString();
 	}
 }
