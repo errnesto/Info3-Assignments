@@ -13,7 +13,10 @@ public class GildedRose {
 	 */
 	public static void main(String[] args) {
 		
-        System.out.println("OMGHAI!");
+        initalizeShop();
+}
+	public static void initalizeShop() {
+		System.out.println("OMGHAI!");
 		
         items = new ArrayList<Item>();
         items.add(new Item("+5 Dexterity Vest", 10, 20));
@@ -24,7 +27,7 @@ public class GildedRose {
         items.add(new Item("Conjured Mana Cake", 3, 6));
 
         updateQuality();
-}
+	}
 	public Item getItem(String name){
 		for (int i = 0; i < items.size(); i++){
 			if(items.get(i).getName().equals(name)){

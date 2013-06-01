@@ -1,9 +1,9 @@
-*.metadata/
+.metadata/
 .settings
 .classpath
 .project
+*.class
 bin/
-.metadata
 *.xcworkspacedata
 *.xcuserstate
 *.xcbkptlist
